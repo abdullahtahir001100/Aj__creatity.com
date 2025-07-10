@@ -1,0 +1,57 @@
+body {
+    background: #f7f7f7;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.payment-container {
+    background: #fff;
+    max-width: 400px;
+    margin: 60px auto 0 auto;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.payment-container h2 {
+    color: #bfa14a;
+    margin-bottom: 24px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.pay-btn {
+    background: #bfa14a;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.pay-btn:hover {
+    background: #a88d3c;
+}
+.success-message {
+    color: #388e3c;
+    background: #e8f5e9;
+    padding: 16px;
+    border-radius: 6px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: 600;
+}
