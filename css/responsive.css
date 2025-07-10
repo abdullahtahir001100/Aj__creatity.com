@@ -269,6 +269,9 @@
 .burger{
     display: none;
 }
+.col-1 {
+    text-align: center;
+  }
 @media (max-width: 1080px){
   header nav ul{
     display: none;
