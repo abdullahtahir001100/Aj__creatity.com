@@ -60,3 +60,12 @@
 table{
     font-family: regular;
 }
+@media (max-width: 600px){
+   tbody {
+        display: flex;
+        justify-content: center;
+        
+        flex-wrap: nowrap;
+        flex-direction: row;
+  }
+}
