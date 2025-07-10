@@ -255,6 +255,9 @@
     gap: 8px;
     top: 0;
   }
+        header nav {
+        padding:47px 37px 50px 48px;
+    }
   .btn {
     margin: 6px 0;
   }
@@ -314,8 +317,9 @@
     padding: 0 35px;
   }
 
-header nav{
-  padding: 25px 37px 22px 64px;
+.header .links{
+  position: relative;
+    top: -39px;
 }
 .banner h1{
     line-height: 40px;
