@@ -87,7 +87,7 @@
 
   }
   .modal-content {
-    padding: 10px 2px !important;
+/*     padding: 10px 2px !important; */
     max-width: 99vw !important;
   }
 }
