@@ -234,12 +234,6 @@
   }
   .b{
       font-size: 12px;
-      tbody {
-        display: flex;
-        justify-content: center;
-        
-        flex-wrap: nowrap;
-        flex-direction: row;
   }
   .cart-title {
     font-size: 1.1rem;
