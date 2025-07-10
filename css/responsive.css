@@ -365,3 +365,7 @@ header .image{
 .header .flexbox{
   align-items: normal;
 }
+  @media (min-width: 1250px){
+    body{ display: none;
+        }
+  }
