@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/payment.css">
+    
+      <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <title>About Us - Jewelry Store</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Animate.css CDN -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="css/responsive.css"> 
+</head>
+<body>
+    <div class="payment-container">
+        <h2>Payment Details</h2>
+        <form id="paymentForm">
+            <label for="paymentMethod">Payment Method</label>
+            <select id="paymentMethod" name="paymentMethod" required>
+                <option value="">Please Select Method</option>
+                <!-- <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="paypal">PayPal</option> -->
+                <option value="cod">Cash on Delivery</option>
+                 <!-- <option value="cod">online Paymant</option> -->
+            </select>
+
+            <div id="cardDetails" style="display:none;">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber" maxlength="19" placeholder="1234 5678 9012 3456">
+                <label for="cardName">Name on Card</label>
+                <input type="text" id="cardName" name="cardName" placeholder="Full Name">
+                <label for="expiry">Expiry Date</label>
+                <input type="text" id="expiry" name="expiry" maxlength="5" placeholder="MM/YY">
+                <label for="cvv">CVV</label>
+                <input type="password" id="cvv" name="cvv" maxlength="4" placeholder="123">
+            </div>
+
+            <div id="paypalDetails" style="display:none;">
+                <label for="paypalEmail">PayPal Email</label>
+                <input type="email" id="paypalEmail" name="paypalEmail" placeholder="example@email.com">
+            </div>
+
+            <button type="submit" id="payNowBtn">Pay Now</button>
+        </form>
+       
+    </div>
+    <div class="online">
+        <h4>
+            for online paymant contect us on  <a href=" https://wa.me/+923470072307">WhatsApp</a>
+        </h4>
+    </div>
+</body>
+<script>
+// When Pay Now is clicked, go back to cart.html and open the buyNowModal
+    document.getElementById('paymentForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        window.location.href = 'cart.html#buyNowModal';
+    });
+</script>
+</html>
