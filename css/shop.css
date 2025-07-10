@@ -82,3 +82,13 @@ img{
         gap: 20px 27px;
 }
 }
+@media (max-width: 600px){
+  .contectses h1{
+    font-size: 12px;
+  }
+  .contectses i{
+   font-size: 12px;
+        position: relative;
+    top: -3px;
+  }
+}
