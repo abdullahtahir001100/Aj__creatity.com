@@ -369,3 +369,8 @@ header .image{
     body{ display: none;
         }
   }
+.icons a{
+  font-size: 19px;
+    margin: 0 10px !important;
+    color: #000;
+}
